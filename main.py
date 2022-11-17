@@ -1,7 +1,7 @@
 
 import cv2
 
-capt = cv2.VideoCapture(0)
+capt = cv2.VideoCapture(1)
 
 #tracker = cv2.legacy.TrackerMOSSE_create() #Plus rapide mais moins précis
 tracker = cv2.legacy.TrackerCSRT_create() #plus précis mais plus lent
